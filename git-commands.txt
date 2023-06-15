@@ -1,0 +1,4 @@
+alias c="clear"
+alias s="git status"
+alias a="git add ."
+alias b="git branch"
