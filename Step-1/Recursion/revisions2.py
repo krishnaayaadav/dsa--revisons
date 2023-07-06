@@ -6,7 +6,7 @@
 # find greatest element                           cmp
 # find duplicate elements of arra using recursion cmp
 
-# reverse of number 
+# reverse of number n = 123
 # check weahter number is  palindrom  not
 
 
@@ -155,3 +155,29 @@ def find_duplicate_of_arr(arr:array, arr_len:int,dup_elm=None):
 # result = find_duplicate_of_arr(arr=employee_salary, arr_len=len(employee_salary) -1, dup_elm=dup_elm)
 
 # print(result)
+
+# find reverse of number using recursion
+#  n = 123 321  123//10 12 12//10: 1//10: 1
+def reverse_of_num(n, rev=0):
+
+    if(n == 0):
+        return rev
+    
+    rev = rev *10 + n%10
+    return reverse_of_num(n//10, rev)
+
+# result = reverse_of_num(123)
+
+# print(result)
+
+
+def is_palindrom(n, tempN, rev=0):
+
+    if (tempN == 0):
+        return True if(rev == n) else False
+    
+    rem = tempN % 10
+    rev = rev *10 + rem
+    return is_palindrom(n ,tempN//10, rev)
+
+# print(is_palindrom(121, 121))
