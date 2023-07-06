@@ -1,0 +1,3 @@
+make a revision of all basic programming concept from scratch
+like variables and data-types
+duration only 1-day
