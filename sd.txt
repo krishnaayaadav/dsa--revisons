@@ -1,0 +1,7 @@
+
+I think the best way to learning new things by creating projects
+I am happy to share my tech stack which I learned in the previous month is React Js
+And by Using that I build simple Full-Stack Project using Django as Backend and React JS as Fronted
+By building first Rest-API and then consume that API in frontend Using React.
+It is live ...
+
