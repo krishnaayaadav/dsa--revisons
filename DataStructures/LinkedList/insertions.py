@@ -105,9 +105,9 @@ class LinkedList:
     def __str__(self):
         return f'{self.head}'
 
-n1 = Node(81)
-link_list = LinkedList()
-link_list.head = n1
+# n1 = Node(81)
+# link_list = LinkedList()
+# link_list.head = n1
 
 def add_multiple_nodes(num_of_nodes=10):
     prevNode = n1
@@ -116,12 +116,12 @@ def add_multiple_nodes(num_of_nodes=10):
         prevNode.nextNode = newNode
         prevNode = newNode
 
-add_multiple_nodes(10) # that done
+# add_multiple_nodes(10) # that done
 
-is_inserted = link_list.insertion_at_given_position(pos=31, newNode=Node(777))
-# print(is_inserted)
+# is_inserted = link_list.insertion_at_given_position(pos=31, newNode=Node(777))
+# # print(is_inserted)
 
-link_list.traversal()
+# link_list.traversal()
 # print(n1)
 # print(link_list)
 
