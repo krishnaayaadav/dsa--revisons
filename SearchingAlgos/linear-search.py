@@ -1,6 +1,7 @@
 
 """
- Searching:  is way checking weather some particular key/element is exist in given sequence(arr,list etc) or not.
+ Searching:  is way checking weather some particular key/element 
+             is exist in given sequence(arr,list etc) or not.
  
  Approach: 
  Linearch Search

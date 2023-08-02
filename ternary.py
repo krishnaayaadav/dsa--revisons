@@ -29,3 +29,20 @@ def is_32_bin(num):
 print(is_32_bin(2**32))
 
 print(1534236469 >> 30)
+
+arr = list(range(1,1101))
+
+counter = 0 #
+
+while True:
+
+    try:
+        arr[counter] # if element exist
+    except:
+        break # if not than break loop
+
+    else:
+    
+        counter += 1
+
+print(counter, len(arr))
